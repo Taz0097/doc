@@ -1,0 +1,40 @@
+body{
+    color: black;
+    background-color:lightgray;
+    font-size: larger;
+
+}
+/* heading styling */
+h1 {
+    color: brown;
+    font-family: "Aldrich";
+}
+#paragraph{
+    text-decoration: underline;
+}
+.intro {
+    color: blue;
+    background-color: bisque;
+}
+/* adjusting image */
+.image {
+    display: block;
+    margin:20px auto 20px auto;
+    max-width: 50%;
+
+}
+@media screen(max-width: 600px) {
+    .image{
+        max-width: 100%;
+        margin: 10px auto;
+
+    }
+    
+}
+/* Margin and padding */
+.example {
+   background-color: darkgrey;
+   border: 1px slategrey; 
+   margin: 50px;
+   padding: 50px;
+}
